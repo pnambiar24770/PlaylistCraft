@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Playlist Craft</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+<h1> Playlist Craft</h1>
+<form method="POST">
+    <label for="songLink">Song link: </label>
+    <input type="text" id="songLink" name="songLink" placeholder="https://open.spotify.com/track/1QwYL1JmXingJ2UQeLEeBH?si=ab5da3b501954729">
+    <br>
+    <label for="Number of Songs">Number of Songs: </label>
+    <input type="text" id="count" name="count" placeholder="10">
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>

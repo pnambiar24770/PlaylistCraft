@@ -1,0 +1,63 @@
+/* Reset default margins and paddings */
+body, h1, h2, p, form, label, input {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the form on the page */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Style the input fields */
+input[type="text"] {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Center the message div */
+#message {
+    text-align: center;
+    margin-top: 10px;
+    display: none;
+    color: green;
+}
+
+/* Style error message */
+.error-message {
+    color: red;
+}
+
+/* Add spacing between inputs */
+br {
+    margin: 10px 0;
+}
