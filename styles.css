@@ -1,17 +1,16 @@
-/* Reset default margins and paddings */
 body, h1, h2, p, form, label, input {
     margin: 0;
     padding: 0;
 }
 
-/* Set a background color and text color */
+
 body {
     background-color: #f4f4f4;
     color: #333;
     font-family: Arial, sans-serif;
 }
 
-/* Center the form on the page */
+
 form {
     display: flex;
     flex-direction: column;
@@ -20,7 +19,7 @@ form {
     height: 100vh;
 }
 
-/* Style the input fields */
+
 input[type="text"] {
     padding: 10px;
     margin: 5px 0;
